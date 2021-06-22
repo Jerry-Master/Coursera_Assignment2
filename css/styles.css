@@ -1,0 +1,91 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 175%;
+}
+
+p {
+    background-color: #bfbfbf;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 50px 10px 5px 10px;
+    overflow: hidden;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 { /* Navbar name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+/** END of HEADER **/
+
+/* Section title regions */
+.corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#chicken {
+    background-color: salmon;
+}
+
+#beef {
+    background-color: maroon;
+    color: white;
+}
+
+#sushi {
+    background-color: moccasin;
+}
+
+.region {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+      
+}
+
+/********** Tablet only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/********** Mobile only **********/
+@media (max-width: 767px) {
+    
+}
