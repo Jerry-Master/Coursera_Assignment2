@@ -21,7 +21,7 @@ p {
 
 /** HEADER **/
 #header-nav {
-    background-color: #f6b319;
+    background-color: #bfbfbf;
     border-radius: 0;
     border: 0;
 }
@@ -31,14 +31,27 @@ p {
 }
 .navbar-brand h1 { /* Navbar name */
     font-family: 'Lora', serif;
-    color: #557c3e;
+    color: #000;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
+}
+
+#collapsable-nav{
+    background-color: rgb(232, 232, 232);
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #000;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #fff;
 }
 
 /** END of HEADER **/
@@ -77,15 +90,19 @@ p {
 
 /********** Desktop only **********/
 @media (min-width: 992px) {
-      
+    #collapsable-nav{
+        background-color: #bfbfbf;
+    }
 }
 
 /********** Tablet only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    #collapsable-nav{
+        background-color: #bfbfbf;
+    }
 }
 
 /********** Mobile only **********/
 @media (max-width: 767px) {
-    
+
 }
